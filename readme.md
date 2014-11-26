@@ -14,7 +14,7 @@ I really dig deploying Flask apps to OpenShift. But I always feel like I'm start
 **Deploying to OpenShift:**
 
 1. [Sign up for OpenShift](http://openshift.com) & install the redhat command like tools: `gem install rhc`.
-2. Create new OpenShift app with Python cartridge: `rhc myapp create flask python-2.7`.
+2. Create new OpenShift app with Python cartridge: `rhc app create myapp python-2.7`.
 3. Download & unpack this repo into `myapp` directory
 4. Hack, test locally, and commit _ad nauseum_
 5. Push the changes to Openshift: `git push`
